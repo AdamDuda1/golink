@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirection by GoLink from Adam Games</title>
+    
+    
+    <meta property="og:url" content="https://adamduda1.github.io/golink/go?" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Redirection by GoLink from Adam Games" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://accessmars.withgoogle.com/img/fbshare.jpg" />
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Redirection by GoLink from Adam Games">
+    <meta name="twitter:description" content="NASA, JPL, and Google bring the real surface of Mars to your browser.">
+    <meta name="twitter:image" content="https://accessmars.withgoogle.com/img/twshare.jpg">
+
+    <style>
+        body {
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            cursor: progress;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 60vh;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(24, 151, 186);
+        }
+
+        .preloader {
+            margin: 85px auto;
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+            animation: animation 1.1s infinite ease;
+        }
+
+        @keyframes animation {
+
+            0%,
+            100% {
+                box-shadow: 0 -59px 0 0 #F34A53, 40px -40px 0 0 rgba(243, 74, 83, 0.2), 57px 0 0 0 rgba(243, 74, 83, 0.2), 39px 39px 0 0 rgba(243, 74, 83, 0.2), 0 57px 0 0 rgba(243, 74, 83, 0.2), -40px 40px 0 0 rgba(243, 74, 83, 0.2), -59px 0 0 0 rgba(243, 74, 83, 0.5), -40px -40px 0 0 rgba(243, 74, 83, 0.7);
+            }
+
+            12.5% {
+                box-shadow: 0 -59px 0 0 rgba(243, 74, 83, 0.7), 40px -40px 0 0 #F34A53, 57px 0 0 0 rgba(243, 74, 83, 0.2), 39px 39px 0 0 rgba(243, 74, 83, 0.2), 0 57px 0 0 rgba(243, 74, 83, 0.2), -40px 40px 0 0 rgba(243, 74, 83, 0.2), -59px 0 0 0 rgba(243, 74, 83, 0.2), -40px -40px 0 0 rgba(243, 74, 83, 0.5);
+            }
+
+            25% {
+                box-shadow: 0 -59px 0 0 rgba(243, 74, 83, 0.5), 40px -40px 0 0 rgba(243, 74, 83, 0.7), 57px 0 0 0 #F34A53, 39px 39px 0 0 rgba(243, 74, 83, 0.2), 0 57px 0 0 rgba(243, 74, 83, 0.2), -40px 40px 0 0 rgba(243, 74, 83, 0.2), -59px 0 0 0 rgba(243, 74, 83, 0.2), -40px -40px 0 0 rgba(243, 74, 83, 0.2);
+            }
+
+            37.5% {
+                box-shadow: 0 -59px 0 0 rgba(243, 74, 83, 0.2), 40px -40px 0 0 rgba(243, 74, 83, 0.5), 57px 0 0 0 rgba(243, 74, 83, 0.7), 39px 39px 0 0 rgba(243, 74, 83, 0.2), 0 57px 0 0 rgba(243, 74, 83, 0.2), -40px 40px 0 0 rgba(243, 74, 83, 0.2), -59px 0 0 0 rgba(243, 74, 83, 0.2), -40px -40px 0 0 rgba(243, 74, 83, 0.2);
+            }
+
+            50% {
+                box-shadow: 0 -59px 0 0 rgba(243, 74, 83, 0.2), 40px -40px 0 0 rgba(243, 74, 83, 0.2), 57px 0 0 0 rgba(243, 74, 83, 0.5), 39px 39px 0 0 rgba(243, 74, 83, 0.7), 0 57px 0 0 #F34A53, -40px 40px 0 0 rgba(243, 74, 83, 0.2), -59px 0 0 0 rgba(243, 74, 83, 0.2), -40px -40px 0 0 rgba(243, 74, 83, 0.2);
+            }
+
+            62.5% {
+                box-shadow: 0 -59px 0 0 rgba(243, 74, 83, 0.2), 40px -40px 0 0 rgba(243, 74, 83, 0.2), 57px 0 0 0 rgba(243, 74, 83, 0.2), 39px 39px 0 0 rgba(243, 74, 83, 0.5), 0 57px 0 0 rgba(243, 74, 83, 0.7), -40px 40px 0 0 #F34A53, -59px 0 0 0 rgba(243, 74, 83, 0.2), -40px -40px 0 0 rgba(243, 74, 83, 0.2);
+            }
+
+            75% {
+                box-shadow: 0 -59px 0 0 rgba(243, 74, 83, 0.2), 40px -40px 0 0 rgba(243, 74, 83, 0.2), 57px 0 0 0 rgba(243, 74, 83, 0.2), 39px 39px 0 0 rgba(243, 74, 83, 0.2), 0 57px 0 0 rgba(243, 74, 83, 0.5), -40px 40px 0 0 rgba(243, 74, 83, 0.7), -59px 0 0 0 #F34A53, -40px -40px 0 0 rgba(243, 74, 83, 0.2);
+            }
+
+            87.5% {
+                box-shadow: 0 -59px 0 0 rgba(243, 74, 83, 0.2), 40px -40px 0 0 rgba(243, 74, 83, 0.2), 57px 0 0 0 rgba(243, 74, 83, 0.2), 39px 39px 0 0 rgba(243, 74, 83, 0.2), 0 57px 0 0 rgba(243, 74, 83, 0.2), -40px 40px 0 0 rgba(243, 74, 83, 0.5), -59px 0 0 0 rgba(243, 74, 83, 0.7), -40px -40px 0 0 #F34A53;
+            }
+        }
+
+        h2.title {
+            font-family: monospace;
+            font-size: 40px;
+            cursor: help;
+            text-align: center;
+        }
+
+        h3.sub {
+            font-family: monospace;
+            height: 95vh;
+            position: absolute;
+            display: flex;
+            align-content: flex-end;
+            flex-direction: column;
+            justify-content: flex-end;
+            text-align: center;
+            cursor: help;
+        }
+
+        div.boxInfo {
+            left: 100vw;
+            position: absolute;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            transition: all .5s;
+        }
+
+        div.boxInfo div.box {
+            background-color: white;
+            width: 50vw;
+            height: 60vh;
+            box-shadow: 0 0 16px 2px;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <div class="main">
+                <div class="preloader"></div>
+                <h2 class="title">Redirection. Wait for all background processes to finish.</h2>
+            </div>
+        </header>
+        <h3 class="sub">Powered by GoLink From Adam Games <br></h3>
+    </div>
+
+    <div class="boxInfo">
+        <div class="box">
+
+        </div>
+    </div>
+
+
+
+    <script>
+        setTimeout(10,
+            Console.Log("elo")
+            //document.getElementsByClassName("boxInfo").style.left = screen.width + "px"
+        );
+    </script>
+</body>
+
+</html>
